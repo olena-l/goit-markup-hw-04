@@ -468,12 +468,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .footer-socials-list {
   display: flex;
   gap: 16px;
+}
+
+.footer-socials-link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link:hover,
