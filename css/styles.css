@@ -477,12 +477,14 @@ img {
 }
 
 .footer-socials-link {
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: #31d0aa;
+}
+
+.socials-icon {
+  fill: #f4f4fd;
 }
