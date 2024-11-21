@@ -92,14 +92,6 @@ img {
   color: #404bbf;
 }
 
-.button:hover {
-  background-color: #404bbf;
-}
-
-.button:focus {
-  background-color: #404bbf;
-}
-
 .logo .logo-light {
   color: #f4f4fd;
 }
@@ -204,6 +196,14 @@ img {
   flex-direction: row;
   margin: 48px auto 0px;
   gap: 10px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 .subtitle {
