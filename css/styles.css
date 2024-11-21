@@ -348,7 +348,8 @@ img {
   justify-content: center;
 }
 
-.team-socials-item:hover {
+.team-socials-link:hover,
+.team-socials-link:focus {
   background-color: #404bbf;
 }
 
