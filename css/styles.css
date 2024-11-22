@@ -108,7 +108,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #434455;
   display: block;
   padding: 24px 0px;
   transition-property: color;
@@ -118,6 +118,7 @@ img {
 
 .nav-item.current {
   position: relative;
+  color: #404bbf;
 }
 
 .nav-item.current::after {
@@ -146,9 +147,9 @@ img {
 }
 
 .nav-item:hover,
+.nav-item:focus,
 .nav-contacts:hover,
-.nav-contacts:focus,
-.nav-link.current {
+.nav-contacts:focus {
   color: #404bbf;
 }
 
@@ -324,11 +325,12 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .socials-item {
   display: flex;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   border-radius: 50%;
   display: flex;
   width: 40px;
